@@ -1,0 +1,44 @@
+.main-global {
+    background-image: linear-gradient(40deg, rgba(202, 167, 192, 0.267), rgba(176, 197, 204, 0.493), rgba(101, 101, 165, 0.418));
+}
+
+.global-parent>div {
+    height: 130px;
+    padding: 20px;
+    background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+    border-radius: 12px;
+    display: flex;
+}
+
+.global-parent>div:hover {
+    box-shadow: 0 20px 40px rgba(145, 145, 196, 0.596);
+}
+
+.global-parent i {
+    font-size: 2rem;
+    padding: 5px 12px;
+    background-color: #9adfff36;
+    margin-right: 15px;
+    color: rgb(19, 19, 184);
+    color: rgb(228, 228, 255);
+}
+
+.libary {
+    color: white;
+    min-height: 70vh;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 21, 54)), url(/images/books.jpeg);
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.program {
+    padding: 8px 30px;
+    background-color: rgba(240, 248, 255, 0.096);
+    border: 1px solid rgba(245, 245, 245, 0.336);
+    border-radius: 10px;
+}

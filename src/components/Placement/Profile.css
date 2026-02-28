@@ -1,0 +1,31 @@
+.profile {
+    width: 250px;
+    box-shadow: 0 10px 10px rgb(228, 228, 228);
+    border-radius: 10px;
+    padding: 40px 20px;
+    position: relative;
+    margin-top: 70px;
+}
+
+.profile span {
+    width: 200px;
+    padding: 1px 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(129, 84, 0);
+    background-color: rgba(255, 187, 0, 0.459);
+    border-radius: 30px;
+}
+
+.profile img {
+    position: absolute;
+    content: "";
+    height: 120px;
+    width: 120px;
+    border: 5px solid rgb(204, 204, 204);
+    border-radius: 50%;
+    z-index: 1;
+    top: -50%;
+    left: 25%;
+    object-fit: cover;
+}

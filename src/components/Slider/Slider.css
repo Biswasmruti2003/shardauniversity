@@ -1,0 +1,44 @@
+/* Container */
+.top-slider {
+    width: 100%;
+    overflow: hidden;
+    background: #06142b;
+    padding: 12px 0;
+    white-space: nowrap;
+}
+
+/* Moving track */
+.slider-track {
+    display: flex;
+    gap: 60px;
+    width: max-content;
+    animation: scrollSlider 20s linear infinite;
+}
+
+/* Text item */
+.slide {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+.slide:hover{
+    transform: none;
+    box-shadow: none;
+}
+.slide i {
+    font-size: 1.2rem;
+}
+
+/* Animation */
+@keyframes scrollSlider {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}

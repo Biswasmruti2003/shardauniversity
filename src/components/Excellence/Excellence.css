@@ -1,0 +1,36 @@
+.excellence {
+    background-color: rgb(0, 0, 32);
+    color: white;
+}
+
+.excellence h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.excellence p {
+    opacity: 0.8;
+}
+
+.grade {
+    min-width: 330px;
+    background-color: rgba(141, 141, 141, 0.103);
+    border-radius: 30px;
+    transition: all .1s;
+    margin: 0;
+}
+
+.grade i {
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+#design {
+    position: relative;
+    top: -5px;
+    color: transparent;
+    background-image: linear-gradient(to right, rgb(86, 86, 253), rgb(0, 238, 255));
+    background-clip: text;
+}
