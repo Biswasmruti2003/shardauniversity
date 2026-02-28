@@ -3,7 +3,7 @@ import './Navbar.css';
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top px-md-5 ">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top px-0 px-md-5 ">
             <div className="container-fluid px-md-5 py-0 ">
                 <a className="navbar-brand" href="#"><img src="/shardauniversity/images/unilogo.png" alt="firstlogo" /></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
