@@ -53,7 +53,7 @@ export default function HeroSection() {
                 </div>
                 <div className="col-lg-6 ">
                     <div className='contact-form mx-auto ms-lg-auto'>
-                        <img src="/images/scholar.jpeg" className='contact' alt="scholar image" />
+                        <img src="/shardauniversity/images/scholar.jpeg" className='contact' alt="scholar image" />
                         <Contact />
                     </div>
                 </div>

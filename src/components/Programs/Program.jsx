@@ -23,19 +23,19 @@ export default function Program() {
 
     let data = [
         {
-            image: "/images/laptop.jpg",
+            image: "/shardauniversity/images/laptop.jpg",
             desc1: "B.Tech Computer Science",
             desc2: "AI & Machine Learning Specialization",
             subject: ["AI & ML", "Cloud Computing"],
         },
         {
-            image: "/images/images.jpeg",
+            image: "/shardauniversity/images/images.jpeg",
             desc1: "B.Tech Electronics",
             desc2: "VLSI & Embedded Systems",
             subject: ["IoT", "Robotics", "Automation"],
         },
         {
-            image: "/images/rcpit-workshop-1.jpg",
+            image: "/shardauniversity/images/rcpit-workshop-1.jpg",
             desc1: "B.Tech Mechanical",
             desc2: "Mechatronics & Auto",
             subject: ["Automotive", "Thermodynamics", "Design"],

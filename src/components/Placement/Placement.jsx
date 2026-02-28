@@ -11,35 +11,35 @@ export default function Placement() {
     }
     let profile = [
         {
-            image: "/images/p1.avif",
+            image: "/shardauniversity/images/p1.avif",
             p_name: "Rohit Jain",
             branch: "B.Tech CSE",
             company: "Amazon",
             ctc: "₹ 1 Crore"
         },
         {
-            image: "/images/p2.avif",
+            image: "/shardauniversity/images/p2.avif",
             p_name: "Aakanksha",
             branch: "MBA",
             company: "Google",
             ctc: "₹ 30 Crore"
         },
         {
-            image: "/images/p3.jpeg",
+            image: "/shardauniversity/images/p3.jpeg",
             p_name: "Amit Sharma",
             branch: "BTECH",
             company: "Microsoft",
             ctc: "₹ 50 Crore"
         },
         {
-            image: "/images/p2.avif",
+            image: "/shardauniversity/images/p2.avif",
             p_name: "Aakanksha",
             branch: "MBA",
             company: "Google",
             ctc: "₹ 30 Crore"
         },
         {
-            image: "/images/p1.avif",
+            image: "/shardauniversity/images/p1.avif",
             p_name: "Priya Singh",
             branch: "LAW",
             company: "Khaitan & Co",
