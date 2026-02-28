@@ -52,7 +52,7 @@ export default function Study() {
                 </div>
             </div>
             <div className="container-fluid p-5 ">
-                <div className="count p-3 p-md-5  d-flex justify-content-around flex-wrap gap-5">
+                <div className="count p-4 p-md-5  d-flex justify-content-around flex-wrap gap-5">
                     <div>
                         <h1>03</h1>
                         <p>Nobel Laureates</p>
