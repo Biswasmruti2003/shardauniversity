@@ -8,7 +8,7 @@ export default function Global() {
                 <div className="row p-1 p-md-5">
                     <div className="col-lg-6">
                         <div className="hero py-5">
-                            <button className='btn btn-light mb-5 fw-bold border rounded-5' style={{color : "rgb(0,0,54)" ,backgroundColor : "rgb(245, 242, 255)"}} ><i class="bi bi-globe"></i> Global Tie-Ups</button>
+                            <button className='btn btn-light mb-5 fw-bold border rounded-5' style={{color : "rgb(0,0,54)" ,backgroundColor : "rgb(245, 242, 255)"}} ><i className="bi bi-globe"></i> Global Tie-Ups</button>
                             <h1>Connecting You to</h1>
                             <h2 className='future'>The World's Best.</h2>
                             <div className="global-parent d-flex flex-column py-1 py-md-0 my-5 gap-4">
@@ -68,7 +68,6 @@ export default function Global() {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }

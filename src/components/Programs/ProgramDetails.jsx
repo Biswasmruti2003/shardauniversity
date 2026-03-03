@@ -2,35 +2,37 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip';
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 
 export default function ProgramDeatails({ data }) {
 
-    let { image, desc1, desc2, subject } = data;
-
     return (
         <>
-            <Card sx={{ minWidth: "350px", borderRadius: "20px" }} >
-                <CardMedia
-                    sx={{ height: 200 }}
-                    image={image}
-                    title="green iguana"
-                />
-                <CardContent className='p-4'>
-                    <Typography gutterBottom variant="h5" sx={{ fontWeight: 600 }} component="div">
-                        {desc1}
-                    </Typography>
-                    <Typography variant="p" sx={{ color: 'text.secondary', fontWeight: "600" }}>{desc2}</Typography>
-                </CardContent>
-                <CardActions className='p-3'>
-                    {subject.map((el, idx) => {
-                        return <a href="#" key={idx}><Chip label={el} /></a>;
-                    })}
-                </CardActions>
-            </Card>
+            {data.map((obj, idx) => {
+                return <Card sx={{ minWidth: "400px", maxWidth: "400px", borderRadius: "20px" }} key={idx} className='d-flex flex-column justify-content-between'>
+                    <CardMedia
+                        sx={{ height: 200 }}
+                        image={obj.image}
+                        title="green iguana"
+                    />
+                    <CardContent className='p-4 pt-5'>
+                        <Typography gutterBottom variant="h5" sx={{ fontWeight: 600 }} component="div">
+                            {obj.title}
+                        </Typography>
+                        <Typography variant="p" sx={{ color: 'text.secondary', fontWeight: "600" }}>{obj.subtitle}</Typography>
+                        <CardActions className='px-0 py-4 d-flex flex-wrap gap-2'>
+                            {obj.subjects.map((el, idx) => {
+                                return <a href="#" key={idx}><Chip label={el} /></a>;
+                            })}
+                        </CardActions>
+                        <button className='btn fw-semibold border rounded-3 d-flex justify-content-between ' style={{ width: "100%" }}>View Details <ArrowRightAltIcon /> </button>
+                    </CardContent>
+
+                </Card>
+            })}
         </>
     )
 }

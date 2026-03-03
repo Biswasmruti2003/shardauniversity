@@ -10,15 +10,15 @@
 /* Moving track */
 .slider-track {
     display: flex;
-    gap: 60px;
+    gap: 20px;
     width: max-content;
-    animation: scrollSlider 20s linear infinite;
+    animation: scrollSlider 50s linear infinite;
 }
 
 /* Text item */
 .slide {
     color: white;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 600;
     letter-spacing: 1px;
     display: flex;
@@ -29,7 +29,7 @@
     box-shadow: none;
 }
 .slide i {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 /* Animation */

@@ -1,7 +1,5 @@
 
 import HeroSection from "../components/HeroSection/HeroSection"
-import Navbar from "../components/Navbar/Navbar"
-import Footer from "../components/Footer/Footer"
 import Program from "../components/Programs/Program"
 import Placement from "../components/Placement/Placement"
 import Study from "../components/Study/Study"
@@ -12,15 +10,13 @@ import Slider from "../components/Slider/Slide"
 export default function Home() {
     return (
         <>
-            <Navbar/>
-            <HeroSection/>
-            <Slider/>
-            <Program/>
-            <Study/>
-            <Excellence/>
-            <Global/>
-            <Placement/>
-            <Footer/>
+            <HeroSection />
+            <Slider />
+            <Program />
+            <Study />
+            <Excellence />
+            <Global />
+            <Placement />
         </>
     )
 }
