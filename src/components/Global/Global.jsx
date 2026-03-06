@@ -7,10 +7,10 @@ export default function Global() {
             <div className="container-fluid main-global py-5 p-3 p-md-5" id='Global'>
                 <div className="row p-1 p-md-5">
                     <div className="col-lg-6">
-                        <div className="hero py-5">
-                            <button className='btn btn-light mb-5 fw-bold border rounded-5' style={{color : "rgb(0,0,54)" ,backgroundColor : "rgb(245, 242, 255)"}} ><i className="bi bi-globe"></i> Global Tie-Ups</button>
+                        <div className="global text-center text-lg-start ">
+                            <button className='btn btn-light mb-5 fw-bold border rounded-5' style={{ color: "rgb(0,0,54)", backgroundColor: "rgb(245, 242, 255)" }} ><i className="bi bi-globe"></i> Global Tie-Ups</button>
                             <h1>Connecting You to</h1>
-                            <h2 className='future'>The World's Best.</h2>
+                            <h2>The World's Best.</h2>
                             <div className="global-parent d-flex flex-column py-1 py-md-0 my-5 gap-4">
                                 <div className='d-flex'>
                                     <div><i className="bi bi-buildings-fill text-dark rounded-3"></i></div>
@@ -47,9 +47,9 @@ export default function Global() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 p-0 d-flex flex-column justify-content-center">
+                    <div className="col-lg-6 p-0 d-flex flex-column justify-content-end">
                         <div className='text-center' >
-                            <h3 className="text-muted mb-5"> We have established strategic partnerships with over across the globe to provide our students with limitless opportunities.</h3>
+                            <h4 className="text-muted mb-5"> We have established strategic partnerships with over across the globe to provide our students with limitless opportunities.</h4>
                             <div className='libary p-md-5 p-3 py-5 text-start'>
                                 <h1 className=''>Harvard Business School</h1>
                                 <p className="fs-4 my-4">Executive education programs and case study methodologies for business students</p>

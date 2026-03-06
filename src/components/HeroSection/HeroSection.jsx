@@ -12,7 +12,7 @@ export default function HeroSection() {
                     <button className='btn btn-light Admin fw-bold border rounded-5' > ADMISSION OPEN FOR 2025-26</button>
                     <div className="hero border-bottom pt-5 ">
                         <h1 className=''>Empowering</h1>
-                        <h2 className='future'>Future Leaders</h2>
+                        <h2 className=''>Future Leaders</h2>
                         <div className='py-5 about '>
                             <p >Join a vibrant community where <span className='fw-bold'> innovation meets tradition.</span></p>
                             <p  >We foster academic excellence and holistic development for students from over 95 countries.</p>

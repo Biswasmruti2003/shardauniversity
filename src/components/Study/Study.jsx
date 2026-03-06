@@ -2,7 +2,7 @@ import './Study.css'
 
 export default function Study() {
     return (
-        <div className="container-fluid fw-bolder p-md-5" id='Study'>
+        <div className="container-fluid fw-bolder my-5 p-md-5" id='Study'>
             <div className="row p-0 p-md-5">
                 <div className="col-md-6 ">
                     <div className="mx-auto p-2">

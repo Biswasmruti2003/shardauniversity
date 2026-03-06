@@ -12,9 +12,9 @@ export default function ProgramDeatails({ data }) {
     return (
         <>
             {data.map((obj, idx) => {
-                return <Card sx={{ minWidth: "400px", maxWidth: "400px", borderRadius: "20px" }} key={idx} className='d-flex flex-column justify-content-between'>
+                return <Card sx={{ width : "600px ", borderRadius: "20px" }} key={idx} className='p-0 d-flex flex-column justify-content-between'>
                     <CardMedia
-                        sx={{ height: 200 }}
+                        sx={{ height: 250 }}
                         image={obj.image}
                         title="green iguana"
                     />

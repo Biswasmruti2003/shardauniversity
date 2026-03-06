@@ -1,6 +1,18 @@
 .main-global {
     background-image: linear-gradient(40deg, rgba(202, 167, 192, 0.267), rgba(176, 197, 204, 0.493), rgba(101, 101, 165, 0.418));
 }
+.global h1 {
+    font-size: 4.3rem;
+    font-weight: 900;
+}
+
+.global h2 {
+    font-size: 4.3em;
+    font-weight: 900; 
+    background-image: linear-gradient(to right, rgb(21, 0, 124) 50% , rgb(255, 0, 0));
+    color: transparent;
+    background-clip: text;
+}
 
 .global-parent>div {
     height: 130px;
@@ -25,7 +37,7 @@
 
 .libary {
     color: white;
-    min-height: 70vh;
+    min-height: 75vh;
     width: 100%;
     border: 1px solid;
     border-radius: 50px;
