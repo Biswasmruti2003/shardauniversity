@@ -10,28 +10,32 @@ import Rankcard from './Rankcard';
 export default function Excellence() {
     let rankData = [
         {
-            icon: <i className="bi bi-trophy bg-warning"></i>,
+            icon: <i className="bi bi-trophy bg-warning" ></i>,
             title: "NIRF Ranking",
             rank: "Top 150",
-            desc: "Ranked among top universities in India by Ministry of Education"
+            desc: "Ranked among top universities in India by Ministry of Education",
+            color:"rgb(252, 185, 0)"
         },
         {
             icon: <i className="bi bi-shield-check bg-success "></i>,
             title: "NAAC A+",
             rank: "Accredited",
-            desc: "Highest grade accreditation for quality education and infrastructure"
+            desc: "Highest grade accreditation for quality education and infrastructure",
+            color:"green"
         },
         {
-            icon: <i className="bi bi-trophy bg-warning"></i>,
+            icon: <i className="bi bi-trophy bg-primary"></i>,
             title: "QS I-Gauge",
             rank: "Gold Rating",
-            desc: "Awarded Gold University rating for overall excellence"
+            desc: "Awarded Gold University rating for overall excellence",
+            color:"rgba(0, 81, 255, 0.842)"
         },
         {
-            icon: <i className="bi bi-trophy-fill bg-info "></i>,
+            icon: <i className="bi bi-trophy-fill  " style={{backgroundColor:"rgb(214, 135, 250)"}}></i>,
             title: "ASSOCHAM",
             rank: "Best University",
-            desc: "Recognized for excellence in industry interface and placements"
+            desc: "Recognized for excellence in industry interface and placements",
+            color :"rgb(214, 135, 250)"
         },
     ]
     let data = [

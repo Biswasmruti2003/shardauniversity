@@ -1,3 +1,4 @@
+
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -12,12 +13,16 @@ export default function ProgramDeatails({ data }) {
     return (
         <>
             {data.map((obj, idx) => {
-                return <Card sx={{ width : "600px ", borderRadius: "20px" }} key={idx} className='p-0 d-flex flex-column justify-content-between'>
+                return <Card sx={{ width: "600px ", borderRadius: "20px", position: "relative" }} key={idx} className='p-0 d-flex flex-column justify-content-between'>
                     <CardMedia
-                        sx={{ height: 250 }}
+                        className='program-image'
+                        sx={{ height: 280, objectFit: "fill" }}
                         image={obj.image}
                         title="green iguana"
                     />
+                    <div className='program-icon'>
+                        {obj.icon}
+                    </div>
                     <CardContent className='p-4 pt-5'>
                         <Typography gutterBottom variant="h5" sx={{ fontWeight: 600 }} component="div">
                             {obj.title}
@@ -30,7 +35,6 @@ export default function ProgramDeatails({ data }) {
                         </CardActions>
                         <button className='btn fw-semibold border rounded-3 d-flex justify-content-between ' style={{ width: "100%" }}>View Details <ArrowRightAltIcon /> </button>
                     </CardContent>
-
                 </Card>
             })}
         </>

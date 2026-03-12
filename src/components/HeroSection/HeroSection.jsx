@@ -55,7 +55,7 @@ export default function HeroSection() {
                     <div className='contact-form mx-auto rounded-5'>
                         <div className='contact p-4'> 
                             <div className=''>
-                                <p className='my-0'>⭐PREMIUM EDUCATION</p>
+                                <p className='my-0'>⭐ PREMIUM EDUCATION</p>
                                 <h2 className='my-0'>Start Your Journey</h2>
                             </div>
                         </div>

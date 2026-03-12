@@ -51,7 +51,7 @@ export default function Placement() {
     return (
         <div className="container-fluid p-1 p-md-5" id="admission">
             <Heading heading={heading} />
-            <div className="p-1 p-md-5 my-5 my-md-0 d-flex flex-wrap justify-content-center justify-content-md-between gap-5">
+            <div className="p-1 p-md-5 my-5 my-md-0 d-flex flex-wrap justify-content-center justify-content-md-between gap-5 ">
                 <Profile profile={profile[0]} />
                 <Profile profile={profile[1]} />
                 <Profile profile={profile[2]} />

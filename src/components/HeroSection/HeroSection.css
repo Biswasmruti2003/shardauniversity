@@ -33,7 +33,7 @@ section {
 .hero h2 {
     font-size: 6em;
     font-weight: 900;
-    background-image: linear-gradient(to right, rgb(21, 0, 124) 50%, rgb(255, 0, 0));
+    background-image: linear-gradient(to right,rgb(0, 44, 114) 40%, rgb(255, 0, 0));
     color: transparent;
     background-clip: text;
 }
@@ -59,7 +59,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    background-image: linear-gradient(rgba(105, 28, 28, 0.219), rgba(5, 0, 70, 0.945) ), url(/images/scholar.jpeg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.089), rgb(0, 19, 54) ), url(/images/scholar.jpeg);
     background-size: cover;
 }
 

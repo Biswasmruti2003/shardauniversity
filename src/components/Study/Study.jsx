@@ -4,8 +4,8 @@ export default function Study() {
     return (
         <div className="container-fluid fw-bolder my-5 p-md-5" id='Study'>
             <div className="row p-0 p-md-5">
-                <div className="col-md-6 ">
-                    <div className="mx-auto p-2">
+                <div className="col-md-6 d-flex flex-column justify-content-center">
+                    <div className="my-auto p-2 ">
                         <h4 className="text-primary">Discover Excellence</h4>
                         <h1>Why Study at <br />
                             <span className='text-warning'>Sharda University?</span>

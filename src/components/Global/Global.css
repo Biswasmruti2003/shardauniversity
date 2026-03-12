@@ -1,6 +1,21 @@
 .main-global {
-    background-image: linear-gradient(40deg, rgba(202, 167, 192, 0.267), rgba(176, 197, 204, 0.493), rgba(101, 101, 165, 0.418));
+    background-image: linear-gradient(45deg,rgba(202, 167, 192, 0.295),white,rgba(101, 101, 165, 0.418));
 }
+
+.global button {
+    font-size: 1.2rem;
+    color: rgba(18, 0, 110, 0.76);
+    background-color: rgba(208, 197, 255, 0.171);
+    border: 2px solid rgba(22, 0, 129, 0.315);
+
+}
+
+.global button:hover {
+    background-color: rgba(212, 201, 255, 0.171);
+    border: 2px solid rgba(22, 0, 129, 0.315);
+    box-shadow: 0 0 10px rgb(161, 161, 161) ;
+}
+
 .global h1 {
     font-size: 4.3rem;
     font-weight: 900;
@@ -8,8 +23,8 @@
 
 .global h2 {
     font-size: 4.3em;
-    font-weight: 900; 
-    background-image: linear-gradient(to right, rgb(21, 0, 124) 50% , rgb(255, 0, 0));
+    font-weight: 900;
+    background-image: linear-gradient(to right, rgb(21, 0, 124) 50%, rgb(255, 0, 0));
     color: transparent;
     background-clip: text;
 }
@@ -17,22 +32,56 @@
 .global-parent>div {
     height: 130px;
     padding: 20px;
-    background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0));
     border-radius: 12px;
     display: flex;
+    position: relative;
 }
 
 .global-parent>div:hover {
     box-shadow: 0 20px 40px rgba(145, 145, 196, 0.596);
 }
 
+.global-parent>div:hover::after {
+    content: ".";
+    font-size: 6rem;
+    color: rgb(211, 0, 0);
+    position: absolute;
+    top: -65%;
+    right: 15px;
+}
+
+
 .global-parent i {
     font-size: 2rem;
     padding: 5px 12px;
     background-color: #9adfff36;
     margin-right: 15px;
-    color: rgb(19, 19, 184);
-    color: rgb(228, 228, 255);
+}
+
+.global-icon button:first-child {
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: 0.5px solid rgb(212, 212, 212);
+    background-color: transparent;
+}
+
+.global-icon i {
+    color: red;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+.global-icon button:last-child {
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: 500;
+    border: none;
+    font-size: 1.1rem;
+    background-color: transparent;
+    background-color: rgba(49, 37, 112, 0.884);
 }
 
 .libary {
