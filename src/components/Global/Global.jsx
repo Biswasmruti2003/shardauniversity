@@ -48,7 +48,7 @@ export default function Global() {
                         </div>
                     </div>
                     <div className="col-lg-6 p-0 d-flex flex-column justify-content-end">
-                        <div className='text-center' >
+                        <div className='text-center px-0 px-lg-5' >
                             <h4 className="text-muted mb-5"> We have established strategic partnerships with over across the globe to provide our students with limitless opportunities.</h4>
                             <div className='libary p-md-5 p-3 py-5 text-start'>
                                 <h1 className=''>Harvard Business School</h1>
