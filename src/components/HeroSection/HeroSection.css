@@ -32,17 +32,18 @@ section {
 
 .hero h2 {
     font-size: 6em;
-    font-weight: 900; 
-    background-image: linear-gradient(to right, rgb(21, 0, 124) 50% , rgb(255, 0, 0));
+    font-weight: 900;
+    background-image: linear-gradient(to right, rgb(21, 0, 124) 50%, rgb(255, 0, 0));
     color: transparent;
     background-clip: text;
 }
 
-.about p{
+.about p {
     font-size: 1.5rem;
     color: rgba(31, 31, 78, 0.733);
     font-weight: 600;
 }
+
 .contact-form {
     width: 100%;
     height: 100%;
@@ -51,11 +52,27 @@ section {
 }
 
 .contact {
-    min-width: 100%;
     height: 300px;
     object-fit: cover;
     border-radius: 40px 40px 0 0;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: linear-gradient(rgba(105, 28, 28, 0.219), rgba(5, 0, 70, 0.945) ), url(/images/scholar.jpeg);
+    background-size: cover;
+}
+
+.contact p {
+    color: rgb(236, 193, 2);
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.contact h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: white;
 }
 
 .contact::after {
@@ -104,8 +121,8 @@ section {
     .contact-form {
         width: 100%;
     }
+
     .hero h1 {
         font-size: 3.5rem;
     }
 }
-
