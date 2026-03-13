@@ -1,4 +1,5 @@
 import './Study.css'
+import TaskAltIcon from '@mui/icons-material/TaskAlt';
 
 export default function Study() {
     return (
@@ -11,12 +12,12 @@ export default function Study() {
                             <span className='text-warning'>Sharda University?</span>
                         </h1>
                         <ul className='mt-md-3 mt-5'>
-                            <li><h5>NAAC A+ Accredited University</h5></li>
-                            <li><h5>100 acres of lush green eco-friendly campus</h5></li>
-                            <li><h5>Top Ranked Among India's Top 50 Universities</h5></li>
-                            <li><h5>40,000+ Alumni Network across the globe</h5></li>
-                            <li><h5>Distinguished faculty with global experience</h5></li>
-                            <li><h5>On-campus 1200+ bed super-specialty hospital</h5></li>
+                            <li><TaskAltIcon className='icon' /> NAAC A+ Accredited University</li>
+                            <li><TaskAltIcon className='icon' /> 100 acres of lush green eco-friendly campus</li>
+                            <li><TaskAltIcon className='icon' /> Top Ranked Among India's Top 50 Universities</li>
+                            <li><TaskAltIcon className='icon' /> 40,000+ Alumni Network across the globe</li>
+                            <li><TaskAltIcon className='icon' /> Distinguished faculty with global experience</li>
+                            <li><TaskAltIcon className='icon' /> On-campus 1200+ bed super-specialty hospital</li>
                         </ul>
                     </div>
                 </div>
